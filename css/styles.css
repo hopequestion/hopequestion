@@ -250,6 +250,20 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 33%;
+  max-height: 100vh;
+  margin: auto;
+}
+
 pre,
 code,
 kbd,
