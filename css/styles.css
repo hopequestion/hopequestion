@@ -250,20 +250,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-.imgbox {
-  display: grid;
-  height: 100%;
-}
-.center-fit {
-  max-width: 33%;
-  max-height: 100vh;
-  margin: auto;
-}
-
 pre,
 code,
 kbd,
@@ -8584,11 +8570,11 @@ textarea.form-control-lg {
   .ms-sm-0 {
     margin-left: 0 !important;
   }
-
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
   .ms-sm-1 {
     margin-left: 0.25rem !important;
