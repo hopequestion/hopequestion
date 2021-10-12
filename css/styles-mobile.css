@@ -8572,7 +8572,7 @@ textarea.form-control-lg {
   }
   
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
@@ -11737,7 +11737,7 @@ body {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11749,7 +11749,7 @@ body {
 
 .text2 {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11758,16 +11758,4 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0;
-}
-
-.grid-container-mobile {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0;
 }
